@@ -1,7 +1,7 @@
 # On Improving Spatial Reasoning of MLLMs
 
 
-SLAM-MLLM is a spatial reasoning pipeline with explicit 3D spatial memory module for multimodal large language models. It reconstructs a dense, loop-closed point cloud from video via SLAM 3D reconstruction, encodes it with point-cloud encoder, integrates those features into an LLM for structured scene information and enhance the spatial reasoning ability of current Multimodal Large Language models
+SLAM-MLLM an explicit 3D spatial memory module for multimodal large language models. It reconstructs a dense, loop-closed point cloud from video via SLAM 3D reconstruction, encodes it with point-cloud encoder, and integrates those features into an LLM for structured scene information. With the explicit, informative scene understanding from just video frames, SLAM-MLLM can enhance the spatial reasoning ability of current Multimodal Large Language models in some certain tasks.
 
 
 ## Installation
