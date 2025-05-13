@@ -67,33 +67,4 @@ We provide three evaluation scripts to measure performance on standard spatial r
     --output results/room_size_results.csv
   ```
 
-Each script will print a brief summary to stdout and write a detailed CSV with per-scene metrics.
-
----
-
-## Repository Structure
-
-```
-slam_mllm/
-├── data/                      # raw and ground-truth data
-│   ├── ground_truth/
-│   │   ├── counting/
-│   │   ├── size/
-│   │   └── room_size/
-│   └── videos/
-├── outputs/                   # inference outputs & evaluation results
-│   ├── predictions/
-│   │   ├── counting/
-│   │   ├── size/
-│   │   └── room_size/
-│   └── results/
-├── scripts/                   # helper scripts (reconstruct, inference, visualize)
-├── eval_count.py              # counting evaluation
-├── eval_obj_size.py           # object-size evaluation
-├── eval_room_size.py          # room-size evaluation
-├── inference.py
-├── visualize.py
-├── reconstruct.py
-├── pyproject.toml
-└── README.md
-```
+Each script will print a brief summary to stdout with per-scene metrics.
