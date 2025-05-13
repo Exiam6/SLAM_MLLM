@@ -33,7 +33,7 @@ poe install-torchsparse  # may take a while to build torchsparse
 
 ## Steps to start
 
-1. **Reconstruct** your point clouds with MASt3R-SLAM 
+1. **Reconstruct** your point clouds with [MASt3R-SLAM](https://github.com/rmurai0610/MASt3R-SLAM)
 2. **Encode + Inference** with `inference.py` to produce JSON layouts.  
 3. **Visualize** with `visualize.py` (outputs Rerun `.rrd` files).  
 
